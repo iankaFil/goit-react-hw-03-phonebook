@@ -27,32 +27,34 @@
     border: none;
     border-radius: 3px;
     width: 40%;
-    margin: 0 10px;
+    margin: 10px;
     color: azure;
     text-transform: capitalize;
-    background-color: #06b7f1;
+    background-color: #ff9204;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #06a0d3;
+    background-color: #ff7b00;
 }
 
 .input {
     padding: 10px 15px;
     margin-top: 10px;
-    border: 2px solid #06a0d3;
+    border: 2px solid #11111187;
     border-radius: 5px;
+    background-color: #4d4d4d;
+    color: #e9e9e9;
 }
 
 .input:focus {
-    outline: 1px solid #06a0d3;
+    outline: 1px solid #ff9204;
 }
 
-.input:focus:invalid {
+/* .input:focus:invalid {
     outline: 1px solid crimson;
 }
 
 .input:invalid {
     border: 2px solid crimson;
-}
+} */
